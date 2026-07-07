@@ -1,0 +1,18 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.venv/
+
+# Ignore data outputs
+data/processed/
+models/
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints/
+
+# Ignore Streamlit state
+.streamlit/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
